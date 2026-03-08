@@ -1,0 +1,306 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  color: #333;
+}
+
+nav {
+  background-color: #2c3e50;
+  padding: 15px 30px;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+nav ul a {
+  color: white;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+nav ul a:hover {
+  color: #75a5d4;
+}
+
+section {
+  padding: 50px 30px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+section h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  border-bottom: 2px solid #2c3e50;
+  padding-bottom: 8px;
+  color: #2c3e50;
+}
+
+#apresentacao {
+  background-color: white;
+  max-width: 100%;
+  padding: 60px 30px 50px;
+  text-align: center;
+}
+
+.foto-placeholder {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  background-color: #ddd;
+  margin: 0 auto 15px;
+  border: 3px solid #2c3e50;
+}
+
+#apresentacao h1 {
+  font-size: 28px;
+  color: #2c3e50;
+  margin-bottom: 10px;
+}
+
+#apresentacao p {
+  font-size: 15px;
+  color: #555;
+  max-width: 600px;
+  margin: 0 auto 10px;
+  line-height: 1.7;
+}
+
+#apresentacao .contatos {
+  margin-top: 15px;
+}
+
+#apresentacao .contatos a {
+  color: #2c3e50;
+  text-decoration: none;
+  font-weight: bold;
+  margin: 0 10px;
+}
+
+#apresentacao .contatos a:hover {
+  color: #75a5d4;
+}
+
+#saudacao {
+  background-color: #eaf4fb;
+  padding: 12px 30px;
+  text-align: center;
+  font-size: 14px;
+  color: #2c3e50;
+  border-bottom: 1px solid #bee3f8;
+}
+
+.formacao-item {
+  margin-bottom: 20px;
+  padding: 15px;
+  background: white;
+  border-left: 4px solid #2c3e50;
+  border-radius: 4px;
+}
+
+.formacao-item h3 {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.formacao-item p {
+  font-size: 14px;
+  color: #666;
+}
+
+#cursos {
+  background-color: #fafafa;
+  max-width: 100%;
+  padding: 50px 0;
+}
+
+#cursos .inner {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 30px;
+}
+
+.cursos-lista {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  padding: 0;
+}
+
+.cursos-lista li {
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  padding: 10px 15px;
+  font-size: 14px;
+  width: calc(50% - 6px);
+}
+
+.cursos-lista li span {
+  display: block;
+  color: #888;
+  font-size: 12px;
+  margin-top: 3px;
+}
+
+.link-certificado {
+  display: inline-block;
+  margin-top: 8px;
+  font-size: 12px;
+  color: #2c3e50;
+  text-decoration: underline;
+}
+
+.projetos-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.projeto-card {
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  width: calc(50% - 10px);
+}
+
+.projeto-card h3 {
+  font-size: 17px;
+  margin-bottom: 8px;
+  color: #2c3e50;
+}
+
+.projeto-card p {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 10px;
+  line-height: 1.6;
+}
+
+.tecnologias {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-bottom: 10px;
+}
+
+.tecnologias span {
+  background-color: #e8f0fe;
+  color: #2c3e50;
+  font-size: 12px;
+  padding: 3px 10px;
+  border-radius: 20px;
+  border: 1px solid #c5d5f8;
+}
+
+.projeto-card .tipo {
+  font-size: 12px;
+  color: #999;
+}
+
+#competencias {
+  background-color: #fafafa;
+  max-width: 100%;
+  padding: 50px 0;
+}
+
+#competencias .inner {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 30px;
+}
+
+.skills-cols {
+  display: flex;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.skills-col h3 {
+  font-size: 16px;
+  margin-bottom: 12px;
+  color: #2c3e50;
+}
+
+.skills-col ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  padding: 0;
+}
+
+.skills-col ul li {
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 5px 12px;
+  font-size: 13px;
+}
+
+.links-lista {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  padding: 0;
+  justify-content: center;
+}
+
+.links-lista a {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 10px 18px;
+  text-decoration: none;
+  color: #2c3e50;
+  font-size: 14px;
+  font-weight: bold;
+  transition: background 0.2s;
+}
+
+.links-lista a:hover {
+  background-color: #eaf4fb;
+  border-color: #2c3e50;
+}
+
+footer {
+  background-color: #2c3e50;
+  color: #ccc;
+  text-align: center;
+  padding: 20px;
+  font-size: 13px;
+}
+
+@media (max-width: 600px) {
+  .cursos-lista li {
+    width: 100%;
+  }
+
+  .projeto-card {
+    width: 100%;
+  }
+
+  .skills-cols {
+    flex-direction: column;
+    gap: 20px;
+  }
+}
